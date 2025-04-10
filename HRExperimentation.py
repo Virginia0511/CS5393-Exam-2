@@ -33,7 +33,6 @@ for prompt in prompts:
             response = ollama.generate(
                 model=model,
                 prompt=prompt,
-                stream=False
             )
             end = time.time()
 
